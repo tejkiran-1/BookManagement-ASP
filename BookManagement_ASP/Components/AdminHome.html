@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>E-Book</title>
+<!-- Bootstrap core CSS -->
+<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+<!-- Fonts -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="../assets/css/mediumish.css" rel="stylesheet">
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #d2d2d2;
+    }
+
+    .card {
+        width: 400px;
+        height: auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .button-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-top: 20px;
+    }
+
+    .button {
+        flex: 1;
+        padding: 10px 20px;
+        background-color: #f3a679;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<!-- Begin Nav
+================================================== -->
+<nav class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="container">
+	<!-- Begin Logo -->
+	<a class="navbar-brand" href="index.html">
+	<img src="../assets/img/logo.png" alt="logo">
+	</a>
+	<!-- End Logo -->
+	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+		<!-- Begin Menu -->
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+			<a class="nav-link" href="AdminHome.html">Home<span class="sr-only">(current)</span></a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="Login.html">Logout</a>
+			</li>
+
+		</ul>
+		<!-- End Menu -->
+	</div>
+</div>
+</nav>
+<div class="card">
+    <h2>Welcome Admin!</h2>
+    <div class="button-container">
+        <a href="author-add.html" title="Add Authors">
+            <button class="button">Add Authors</button>
+        </a>
+        <a href="author-update.html" title="Update Authors">
+            <button class="button">Update Authors</button>
+        </a>
+        <a href="book-add.html" title="Add    Books">
+            <button class="button">Add Books</button>
+        </a>
+        <a href="book-update.html" title="Update Books">
+            <button class="button">Update Books</button>
+        </a>
+    </div>
+</div>
+    </body>
+</html>
